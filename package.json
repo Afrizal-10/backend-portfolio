@@ -2,7 +2,7 @@
   "name": "backend-portfolio",
   "version": "1.0.0",
   "description": "Backend API untuk portfolio Afrizal",
-  "main": "api/server.js",
+  "main": "api/Server.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon api/Server.js",
