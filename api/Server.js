@@ -31,3 +31,11 @@ app.listen(PORT, () => {
   console.log(`🚀 Backend running at: http://localhost:${PORT}`);
   console.log("=====================================");
 });
+
+// Root route (Health Check)
+app.get("/", (req, res) => {
+  res.json({
+    status: "success",
+    message: "🚀 Backend portfolio API is running!",
+  });
+});
